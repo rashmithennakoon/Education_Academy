@@ -1,0 +1,65 @@
+#top{
+    text-align: center;
+    top: 0%;
+    left: 25%;
+    position: absolute;
+    font-size: 80px;
+}
+#a3{
+    background-color: #00008B;
+}
+#hh1{
+    top: 25%;
+    left: 20%;
+    position: absolute;
+}
+#hh2{
+    top: 35%;
+    left: 20%;
+    position: absolute;
+}
+#hh3{
+    top: 45%;
+    left: 20%;
+    position: absolute;
+}
+#hh4{
+    top: 55%;
+    left: 20%;
+    position: absolute;
+}
+#hh5{
+    top: 65%;
+    left: 20%;
+    position: absolute;
+}
+#du1{
+    top: 80%;
+    left: 35%;
+    position: absolute;
+}
+#du2{
+    top: 80%;
+    left: 45%;
+    position: absolute;
+}
+#fe1{
+    top: 90%;
+    left: 35%;
+    position: absolute;
+}
+#fe2{
+    top: 90%;
+    left: 45%;
+    position: absolute;
+}
+footer {
+    top:110%;
+    position: absolute;
+}
+.topi a:hover{
+    color: #00008B;
+}
+#hhh1{
+    border-right: none;
+}

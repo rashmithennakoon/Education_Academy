@@ -1,0 +1,41 @@
+#top{
+    text-align: center;
+    top: 0%;
+    left: 35%;
+    position: absolute;
+    font-size: 80px;
+}
+#a4{
+    background-color: #00008B;
+}
+footer {
+    top:100%;
+    position: absolute;
+}
+#img1{
+    top: 30%;
+    position: absolute;
+}
+#img2{
+    top: 50%;
+    position: absolute;
+}
+#img3{
+    top: 70%;
+    position: absolute;
+}
+.lb{
+    font-size: 40px;
+    left: 25%;
+    position: absolute;
+}
+.bo{
+    font-size: 40px;
+    left: 45%;
+    position: absolute;
+}
+.img{
+    width: 150px;
+    left: 12%;
+    position: absolute;
+}

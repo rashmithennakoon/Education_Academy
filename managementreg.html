@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management</title>
+    <link rel="stylesheet" href="managementregs.css">
+</head>
+<body bgcolor="#FDD7E4">
+    <h1 id="top">Management Degrees</h1>
+    <div><h2 id= "top1">Registration Form</h2></div><br><br><br><br><br>
+    <form action='managementregconnect.php' method="POST">
+        <label for="user" id="name1" class="lb">Full Name:</label>
+        <input type='text' name='name' id="name" class="bo" required/><br><br><br><br>
+        <label for="id" id="id1" class="lb">ID:</label>
+        <input type='text' name='id' id="id" class="bo" required/><br><br><br><br>
+        <label for="dob" id="dob1" class="lb">Date of Birth:</label>
+        <input type='date' name='dob' id="dob" class="bo" required/><br><br><br><br>
+        <label for="email" id="email1" class="lb">Email:</label>
+        <input type='email' name='email' id="email" class="bo" required/><br><br><br><br>
+        <label for="address" id="address1" class="lb">Home Address:</label>
+        <input type='text' name='address' id="address" class="bo" required/><br><br><br><br>
+        <label for="phone" id="tp1" class="lb">Telephone Number:</label>
+        <input type='text' name='phone' id="phone" class="bo" required/><br><br><br><br>
+
+        <label for="degree" id="degree1" class="lb">Select Your Degree:</label>
+        <select name="degree" id="degree" class="bo">
+            <option value="select">Select</option>
+            <option value="Accounting & Finance">BBA (Hons) - in Accounting & Finance</option>
+            <option value="Business Analytics">BBA (Hons) - in Business Analytics</option>
+            <option value="Human Capital Management">BBA (Hons) - in Human Capital Management</option>
+            <option value="Marketing Management">BBA (Hons) - in Marketing Management</option>
+            <option value="Quality Management">BBA (Hons) - in Quality Management</option>
+        </select><br><br><br><br>
+
+        <label for="pict" id="pict1" class="lb">Payment Slip Link:</label>
+        <input type='text' name='pict' id="pict" class="bo" required/><br><br><br><br>
+
+        <input type='submit' name='submit' id='submit'>
+        <footer>
+            <p>&copy; WisdomWays Academy. All right received. </p>
+        </footer>
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComputerScience</title>
+    <link rel="stylesheet" href="computerscienceregs.css">
+</head>
+<body bgcolor="#FDD7E4">
+    <h1 id="top">Computer Science Degrees</h1>
+    <div><h2 id= "top1">Registration Form</h2></div><br><br><br><br><br>
+    <form action='computerscienceregconnect.php' method="POST">
+        <label for="user" id="name1" class="lb">Full Name:</label>
+        <input type='text' name='name' id="name" class="bo" required/><br><br><br><br>
+        <label for="id" id="id1" class="lb">ID:</label>
+        <input type='text' name='id' id="id" class="bo" required/><br><br><br><br>
+        <label for="dob" id="dob1" class="lb">Date of Birth:</label>
+        <input type='date' name='dob' id="dob" class="bo" required/><br><br><br><br>
+        <label for="email" id="email1" class="lb">Email:</label>
+        <input type='email' name='email' id="email" class="bo" required/><br><br><br><br>
+        <label for="address" id="address1" class="lb">Home Address:</label>
+        <input type='text' name='address' id="address" class="bo" required/><br><br><br><br>
+        <label for="phone" id="tp1" class="lb">Telephone Number:</label>
+        <input type='text' name='phone' id="phone" class="bo" required/><br><br><br><br>
+
+        <label for="degree" id="degree1" class="lb">Select Your Degree:</label>
+        <select name="degree" id="degree" class="bo">
+            <option value="select">Select</option>
+            <option value="Software Engineering">BSc (Hons) in Information Technology - Software Engineering</option>
+            <option value="Computer Science">BSc (Hons) in Computer Science</option>
+            <option value="Information Technology">BSc (Hons) in Information Technology - Information Technology</option>
+            <option value="Data Science">BSc (Hons) in Information Technology - Data Science</option>
+            <option value="Cyber Security">BSc (Hons) in Information Technology - Cyber Security</option>
+        </select><br><br><br><br>
+
+        <label for="pict" id="pict1" class="lb">Payment Slip Link:</label>
+        <input type='text' name='pict' id="pict" class="bo" required/><br><br><br><br>
+
+        <input type='submit' name='submit' id='submit'>
+        <footer>
+            <p>&copy; WisdomWays Academy. All right received. </p>
+        </footer>
+    </form>
+</body>
+</html>

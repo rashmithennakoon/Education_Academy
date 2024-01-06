@@ -1,0 +1,30 @@
+#top{
+    text-align: center;
+    top: 0%;
+    left: 33%;
+    position: absolute;
+    font-size: 80px;
+}
+#a1{
+    background-color: #00008B;
+}
+#img1{
+    top:20%;
+    left:-4%;
+    position: absolute;
+}
+#div2{
+    background-color: #BDEDFF;
+    border: 3px dashed black;
+    padding: 13px 13px 13px 20px;
+    margin: 10px auto;
+    text-align: justify;
+    top: 50%;
+    left: 40%;
+    right:10%;
+    position: absolute; 
+}
+footer {
+    top:280%;
+    position: absolute;
+}
